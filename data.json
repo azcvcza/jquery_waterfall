@@ -1,33 +1,12 @@
 {
-    "data": [{
-            "src": "pic1.png"
-        },
-        {
-            "src": "pic2.png"
-        },
-        {
-            "src": "pic3.png"
-        },
-        {
-            "src": "pic4.png"
-        },
-        {
-            "src": "pic5.png"
-        },
-        {
-            "src": "pic6.png"
-        },
-        {
-            "src": "pic7.png"
-        },
-        {
-            "src": "pic8.png"
-        },
-        {
-            "src": "pic9.png"
-        },
-        {
-            "src": "pic10.png"
-        },
-    ]
+    "0": {"src": "pic1.png"},
+    "1":{"src": "pic2.png"},
+    "2": {"src": "pic3.png"},
+    "3":{"src": "pic4.png"},
+    "4": {"src": "pic5.png"},
+    "5":{"src": "pic6.png"},
+    "6": {"src": "pic7.png"},
+    "7":{"src": "pic8.png"},
+    "8": {"src": "pic9.png"},
+    "9":{"src": "pic10.png"}
 }

@@ -34,6 +34,16 @@ $(window).on('load', function () {
     ];
     $(window).on('scroll', function () {
         if (checkScrollSlide) {
+            $.getJSON("data.json", function (data) {
+                $.each(data, function (key, value) {
+                    var oBox = $('<div>').addClass('box').appendTo($('#main'));
+                    var oPic = $('<div>').addClass('pic').appendTo($(oBox));
+                    var oImg = $('<img>').attr("src", 'image/' + $(value).attr("src")).appendTo(oPic);
+                    // console.log($(value), key)
+                })
+                waterfall();
+            })
+            /*
             $.each(image_data, function (key, value) {
                 var oBox = $('<div>').addClass('box').appendTo($('#main'));
                 var oPic = $('<div>').addClass('pic').appendTo($(oBox));
@@ -41,6 +51,7 @@ $(window).on('load', function () {
                // console.log($(value), key)
             })
             waterfall();
+            */
         }
     })
 })
